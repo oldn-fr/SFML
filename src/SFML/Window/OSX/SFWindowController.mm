@@ -449,10 +449,9 @@
 
 
 ////////////////////////////////////////////////////////
--(BOOL)requestFocus
+-(void)requestFocus
 {
     [m_window makeKeyAndOrderFront:nil];
-    return [self hasFocus];
 }
 
 
