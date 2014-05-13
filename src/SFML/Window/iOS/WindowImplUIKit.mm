@@ -171,14 +171,14 @@ void WindowImplUIKit::setKeyRepeatEnabled(bool enabled)
 
 
 ////////////////////////////////////////////////////////////
-void WindowImplAndroid::requestFocus()
+void WindowImplUIKit::requestFocus()
 {
     // Not applicable
 }
 
 
 ////////////////////////////////////////////////////////////
-bool WindowImplAndroid::hasFocus() const
+bool WindowImplUIKit::hasFocus() const
 {
     // Not applicable
     return false;
